@@ -100,7 +100,8 @@
         </tbody>
       </table>
       <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-    <script>
+   <script src="http://loktar00.github.io/JQuery-Snowfall/snowfall.jquery.min.js"></script>
+   <script>
 
       function addReps(){
         var kb = $('select[name=kb]').val();
@@ -180,6 +181,10 @@
 
       showBtn();
       ton();
+      window.scrollTo(0,1);
+      $(document).ready(function(){
+         $(document).snowfall();
+      });
     </script>
   </body>
 </html>
