@@ -173,7 +173,9 @@
         let clearLogs = confirm("Все будет удалено, вы уверены?");
         if(clearLogs){
           localStorage.clear();
-          location.reload();
+          showBtn();
+          ton();
+          $('#logs').html('');
         }
       }
       
